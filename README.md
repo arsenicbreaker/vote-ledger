@@ -1,34 +1,21 @@
-# Voting Program
+# 🦀 Multi-Chain Web3 Development Lab
 
-A on-chain polling program built with [Anchor](https://www.anchor-lang.com/) on Solana. Demonstrates how to use PDAs to store structured state, pass typed arguments through instructions, and enforce time-gated access rules.
+Welcome to my personal Web3 workspace. This repository is a central hub for my decentralized experiments, research, and ongoing projects across **Solana** and **Stellar** ecosystems. It tracks my journey in building high-performance solutions focused on social innovation, data integrity, and transparency.
 
-## Overview
+## 🧪 Ongoing & Featured Projects
 
-Anyone can create a poll with a name, description, and a voting window. The poll creator then adds candidate options. During the voting window any wallet can cast a vote for a candidate; votes outside the window are rejected on-chain.
+I use this workspace to manage several Web3 initiatives across different protocols:
 
-## Program ID
+| Project | Ecosystem | Status | Description |
+| :--- | :--- | :--- | :--- |
+| **Stellar StudentChain** | **Stellar** | `Active` | A blockchain-based student data management system built to ensure academic record integrity. |
+| **01-Voting** | **Solana** | `Active` | An on-chain voting system exploring Solana's account model and Anchor framework. |
+| **WhaleProof** | **Solana** | `In-Progress` | An open-source framework focused on financial literacy and transparency for retail traders. |
+| **PlateRescue** | **Cross-Chain** | `Development` | A food-waste reduction platform connecting businesses with consumers to rescue surplus food. |
+| **Clinexa** | **Research** | `Research` | A hybrid blockchain system for managing electronic medical records using HL7 FHIR standards. |
 
-```
-65KHV8cXwJ8apTKMqnpSdhdHkHhRySatgKMwnxm6C3gG
-```
-
-## Prerequisites
-
-- [Rust](https://rustup.rs/)
-- [Solana CLI](https://solana.com/developers/guides/getstarted/setup-local-development)
-- [Anchor CLI](https://www.anchor-lang.com/docs/installation) v1.0.0-rc.2
-- [Node.js](https://nodejs.org/) + [Yarn](https://yarnpkg.com/)
-
-## Instructions
-
-### `initialize_poll`
-
-Creates a new poll account.
-
-| Argument      | Type   | Description                              |
-|---------------|--------|------------------------------------------|
-| `poll_id`     | u64    | Unique identifier used as a PDA seed     |
-| `start_time`  | u64    | Unix timestamp when voting opens         |
-| `end_time`    | u64    | Unix timestamp when voting closes        |
-| `name`        | String | Poll name (max 32 chars)                 |
-| `description` | String | Poll description (max 280 chars)         |
+## 🛠️ Tech Stack
+*   **Smart Contracts:** Rust (Anchor Framework for Solana & Soroban for Stellar).
+*   **Frontend:** React, Next.js, Tailwind CSS, and Framer Motion.
+*   **Backend/Data:** Supabase & PostgreSQL for hybrid data management.
+*   **Dev Ops:** WSL (Ubuntu), Solana CLI, and Stellar CLI.
