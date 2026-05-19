@@ -8,10 +8,7 @@ I use this workspace to manage several Web3 initiatives across different protoco
 
 | Project | Ecosystem | Status | Description |
 | :--- | :--- | :--- | :--- |
-| **Stellar StudentChain** | **Stellar** | `Active` | A blockchain-based student data management system built to ensure academic record integrity. |
-| **01-Voting** | **Solana** | `Active` | An on-chain voting system exploring Solana's account model and Anchor framework. |
-| **WhaleProof** | **Solana** | `In-Progress` | An open-source framework focused on financial literacy and transparency for retail traders. |
-| **PlateRescue** | **Cross-Chain** | `Development` | A food-waste reduction platform connecting businesses with consumers to rescue surplus food. |
+| **Voting** | **Solana** | `Active` | An on-chain voting system exploring Solana's account model and Anchor framework. |
 | **Clinexa** | **Research** | `Research` | A hybrid blockchain system for managing electronic medical records using HL7 FHIR standards. |
 
 ## 🛠️ Tech Stack
